@@ -1598,7 +1598,7 @@ header .header-logo a {
     height: 100%;
     background-color: #151515;
     /*CHANGE FILE NAME AND GIVE CREDIT*/
-    background-image: url(../images/alexandre-debieve-FO7JIlwjOtU-unsplash.jpg);
+    background-image: url(../images/home-bg.jpg);
     background-repeat: no-repeat;
     background-position: center 30%;
     -webkit-background-size: cover;
@@ -2026,7 +2026,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
  * ------------------------------------------------------------------- */
 #portfolio {
     background-color: #19191b;
-    background-image: url(../images/services-bg.jpg);
+    background-image: url(../images/portfolio-bg.jpg);
     background-repeat: no-repeat;
     background-position: center;
     -webkit-background-size: cover;
@@ -2035,7 +2035,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
     min-height: 800px;
     position: relative;
     padding: 15rem 0 15rem;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.75);
 }
 
 #portfolio .overlay {

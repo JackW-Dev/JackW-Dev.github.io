@@ -1,5 +1,11 @@
-==================================================================================================
+This repo will contain all code used for my GitHub pages portfolio site.
+This site will be utilised as an info-dump about me, as well as hosting a download link for my CV and providing
+methods of contact.
 
+This site is built using a template modified from styleshout.com
+Please find the original template README details below.
+
+==================================================================================================
 DESCRIPTION:
 
 INFINITY is a clean, modern and well crafted responsive template designed for creatives and agencies. 
@@ -7,49 +13,33 @@ The template suits the needs of creative agencies, freelancers, and even small b
 Infinity is mobile and retina/hi-dpi ready which means your site will look awesome, crisp and sharp 
 on any screen resolutions and devices. Also, the code behind infinity is clean and well organized 
 which makes the template very easy to customize.
-
 ==================================================================================================
-
-
 LICENSE:
 
 This free resource is provided by Styleshout.com and is free to use in 
 both personal and commercial projects.
 
-
 Rights:
 -------
-
-You are permitted to use this free resource in any number of personal and commercial projects for 
+You are permitted to use this free resource in any number of personal and commercial projects for
 yourself or a client. You may modify the resource according to your requirements and include them 
 in your projects under the following condition - you MUST give appropriate credit, provide an 
 attribution link to styleshout.com.
 
-
 Prohibitions:
 -------------
-
-You are not permitted to resell or redistribute(even for free) the resource "as is" without 
+You are not permitted to resell or redistribute(even for free) the resource "as is" without
 prior consent. If you would like to republish or promote this resource on your site, please 
 link back to the appropriate resource page on styleshout.com where users can find the download 
 and not directly to the download zip file.
 
-
-Attribution: 
+Attribution:
 ------------
-
-You must include a credit link to our website(https://www.styleshout.com) somewhere on your site. 
+You must include a credit link to our website(https://www.styleshout.com) somewhere on your site.
 We prefer the footer credit that comes with the template but you are still free to move it 
 somewhere else.
-
-
-
 If you have any questions about the License, feel free to contact us.
-
-
 -----------------------------------------------------------------------------------------------------
-
-
 REMOVING THE ATTRIBUTION LINK:
 
 We understand that there are situations where you want to use our templates without 
@@ -61,11 +51,7 @@ You can send your payments through Paypal to this address: ealigam@gmail.com
 
 If possible, kindly send us the site's url where the template is being used. 
 Also, keep your Paypal receipt as proof of payment and your good to go.
-
-
 ------------------------------------------------------------------------------------------------------ 
-
-
 SUPPORT:
     
 Since INFINITY is distributed for free, support is not offered. INFINITY is coded according 
@@ -83,21 +69,12 @@ jQuery in your skill-set, you can also check out these tutorials:
  - https://code.tutsplus.com/courses/30-days-to-learn-jquery
  - http://try.jquery.com/
 
-
-
 ------------------------------------------------------------------------------------------------------ 
-
-
 GET THE LATEST VERSION:
 
 We update our templates on a regular basis so to make sure that you have the latest version, 
 always download the template files directly on our website(http://www.styleshout.com/)
-
-
-
 -------------------------------------------------------------------------------------------------------
-
-
 SOURCES AND CREDITS:
 
 I've used the following resources as listed.
@@ -129,7 +106,4 @@ Javascript Files:
  - ImagesLoaded (http://masonry.desandro.com/)
  - jQueryValidation (https://jqueryvalidation.org/)
  - ajaxChimp (https://github.com/scdoshi/jquery-ajaxchimp)
-
-
-
 -------------------------------------------------------------------------------------------------------
