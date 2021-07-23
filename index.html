@@ -191,14 +191,17 @@
                 <div class="portfolio-content">
                     <h3 class="h05">Music Genre Classification System</h3>
 
-                    <p>For my dissertation assignment in 2020/21, I produced a classification machine learning system.
-                        The goal for this system was to, with higher than random chance accuracy, classify one or more
-                        songs into their correct genre. This project was created using Python with SciKit Learn to
-                        facilitate the ML process. The models produced were hosted on Azure to allow for faster
-                        computing and to increase access. The system produced achieved the goals defined and is
-                        available for viewing <a href="https://github.com/JackW-Dev/Music-Genre-Classification"
-                                                 target="_blank">here</a>.
-                        This project achieved a First Class classification, with a mark of 88/100 being awarded.
+                    <p>A machine learning project that, with higher than random chance accuracy, can classify a given
+                        audio file into 1 of 10 genres.
+                        <br>
+                        For this, I implemented different classification algorithms
+                        and tuned their hyperparameters with the goal of increasing the accuracy of each model.
+                        <br>
+                        This project was produced for my dissertation piece at Staffordshire University, for which I was
+                        awarded First Class Honours.
+                        <br>
+                        Code for this project is available <a
+                                href="https://github.com/JackW-Dev/Music-Genre-Classification" target="_blank">here</a>.
                     </p>
                 </div>
 
@@ -211,13 +214,16 @@
                 <div class="portfolio-content">
                     <h3 class="h05">Microcontroller MiniOS</h3>
 
-                    <p>The aim for this project was to produce a "mini OS" using C to run on a Motorola 68HC11
-                        microcontroller. This "mini OS" had to mimic the functionality of a provided example system, of
-                        which the source code was unavailable. The OS was successfully reproduced, with all
-                        functionality matching as required for the assignment. Furthermore, some stylistic changes were
-                        applied to make the system more user friendly. Overall, this project achieved a mark of
-                        89/100. The source code for this project can be found <a
-                                href="https://github.com/JackW-Dev/68HC11-Mini-OS" target="_blank">here</a>.</p>
+                    <p>A "mini OS" produced for use on the Motorola 68HC11 microcontroller.
+                        <br>
+                        The requirements for this project were that it must match the functionality of an existing
+                        system, of which all source code was obscured. This included: Loading a file via a serial
+                        connection, modifying memory, displaying memory, and disassembling assembly language code from
+                        memory.
+                        <br>
+                        The source code for this project is available <a
+                                href="https://github.com/JackW-Dev/68HC11-Mini-OS" target="_blank">here</a>.
+                    </p>
                 </div>
 
             </div> <!-- end bgrid -->
@@ -229,16 +235,18 @@
                 <div class="portfolio-content">
                     <h3 class="h05">Nuclear Reactor Cooling System Simulation</h3>
 
-                    <p>This project was also a component of the module for which the 68HC11 mini OS was produced. For
-                        this assignment task, I was provided a scenario with a list of demanded features. I had to
-                        communicate with the lecturer for this task, with them playing the role of a client, in order to
-                        determine the exact feature set that would be required. The task itself was to produce a nuclear
-                        reactor cooling system (simulated) using LabView (a graphical programming language) running on
-                        both a PC and a MyRIO FPGA simultaneously. These two components were required to communicate
-                        using TCP in order to simulate being a main control unit and a cooling device within a nuclear
-                        power plant. This project was included within the marking for the 68HC11 project, achieving a
-                        mark of 89/100 overall. The LabView code for this project can be found
-                        <a href="https://github.com/JackW-Dev/MyRIO-Reactor-Simulation" target="_blank">here</a>.</p>
+                    <p>A LabView based project designed to run on a MyRIO FPGA device, this project is designed to
+                        simulate a nuclear reactor cooling system.
+                        <br>
+                        The project consists of two main components, a main controller and local controller, that
+                        communicate via TCP and was implemented to meet a set of requirements requested by a client.
+                        <br>
+                        The client was communicated with at various stages of implementation to ensure that all aspects
+                        meet their needs.
+                        <br>
+                        The code for this project can be found at this <a
+                                href="https://github.com/JackW-Dev/MyRIO-Reactor-Simulation" target="_blank">repo</a>.
+                    </p>
                 </div>
 
             </div> <!-- end bgrid -->
@@ -250,24 +258,28 @@
                 <div class="portfolio-content">
                     <h3 class="h05">Plant Cataloging Application</h3>
 
-                    <p>An Android application built utilising Kotlin, Plantly was a plant encyclopedia and cataloging
-                        application for aspiring and established botanists. This application was produced using the
-                        Trefle API, which is sadly now unavailable for use (documentation is still available). Due to
-                        this, the application may no longer be used as intended, however, all fallbacks remain in place
-                        to inform users that the API is unavailable and avoid any errors. This application was produced
-                        to meet a variety of criteria outlined by the module leader and achieved a marking of 92/100.
-                        Though no longer able to work as intended, the source code for the project is available to view
-                        and build <a href="https://github.com/JackW-Dev/Plantly-Android" target="_blank">here</a>.
+                    <p>
+                        An Android application written in Kotlin, Planty was a botanists best friend, allowing for
+                        searching and cataloging of plants.
                         <br>
-                        NOTE: Though the application may no longer be used as intended due to the Trefle API no longer
-                        being available, I am still proud of the code produced and will therefore be keeping the repo
-                        public with a notice applied.</p>
+                        This application was written to provide end users with an in pocket solution for their plant
+                        research and cataloging needs.
+                        <br>
+                        Sadly, due to a lack of resources, the Trefle API that this application utilised has now been
+                        closed. As a result, when launched, the user will only see the implemented system fallbacks and
+                        will no longer have access to any plant details.
+                        <br>
+                        The source code for the project is available to view and build <a
+                            href="https://github.com/JackW-Dev/Plantly-Android" target="_blank">here</a>.
+                    </p>
 
-                </div> <!-- end bgrid -->
+                </div>
 
-            </div> <!-- end services-list -->
+            </div> <!-- end bgrid -->
 
-        </div> <!-- end services-content -->
+        </div> <!-- end services-list -->
+
+    </div> <!-- end services-content -->
 
 </section> <!-- end example work -->
 
@@ -299,6 +311,7 @@
             <form name="contactForm" id="contactForm" method="post">
 
                 <div class="form-field">
+                    <label for="contactName" hidden>Name</label>
                     <input name="contactName" type="text" id="contactName" placeholder="Name" value="" minlength="2"
                            required="">
                 </div>
@@ -306,19 +319,22 @@
                 <div class="row">
                     <div class="col-six tab-full">
                         <div class="form-field">
+                            <label for="contactEmail" hidden>Email</label>
                             <input name="contactEmail" type="email" id="contactEmail" placeholder="Email" value=""
                                    required="">
                         </div>
                     </div>
                     <div class="col-six tab-full">
                         <div class="form-field">
+                            <label for="contactSubject" hidden>Subject</label>
                             <input name="contactSubject" type="text" id="contactSubject" placeholder="Subject" value="">
                         </div>
                     </div>
                 </div>
 
                 <div class="form-field">
-                    <textarea name="contactMessage" id="contactMessage" placeholder="message" rows="10" cols="50"
+                    <label for="contactMessage" hidden>Message</label>
+                    <textarea name="contactMessage" id="contactMessage" placeholder="Message" rows="10" cols="50"
                               required=""></textarea>
                 </div>
 
@@ -446,7 +462,7 @@
                     <span>Design by <a href="https://www.styleshout.com/">styleshout</a></span>
                     <span>Photos by <a
                             href="https://unsplash.com/@alexkixa?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Alexandre Debiève</a>, <a
-                            href="https://unsplash.com/@tvick?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Taylor Vick</a> and <a
+                            href="https://unsplash.com/@liam_1?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Liam Briese</a> and <a
                             href="https://unsplash.com/@hishahadat?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Shahadat Rahman</a> on <a
                             href="https://unsplash.com/">Unsplash</a>
                     </span>
