@@ -85,7 +85,7 @@ a, a:visited {
 }
 
 a:hover, a:focus {
-    color: #000000;
+    color: #5da089;
 }
 
 
@@ -1699,7 +1699,7 @@ header .header-logo a {
 .home-social-list li a:hover,
 .home-social-list li a:focus,
 .home-social-list li a:active {
-    color: #151515;
+    color: #ffffff;
 }
 
 /* scroll down */
@@ -2211,7 +2211,7 @@ html[data-useragent*='MSIE 10.0'] .scrolldown,
 }
 
 .contact-content h6 {
-    color: #555555;
+    color: #ffffff;
     font-size: 1.4rem;
 }
 
@@ -2542,53 +2542,6 @@ footer h4.h05::after {
 
 .footer-main ul a:hover, .footer-main ul a:focus {
     color: #FFFFFF;
-}
-
-.footer-main .subscribe-form {
-    position: relative;
-}
-
-.footer-main #mc-form {
-    margin: 0;
-    padding: 0;
-}
-
-.footer-main #mc-form input[type="email"] {
-    height: 6rem;
-    padding: 1.5rem 8rem 1.5rem 2rem;
-    margin-bottom: 1.5rem;
-    width: 100%;
-    background-color: rgba(0, 0, 0, 0.9);
-}
-
-.footer-main #mc-form button {
-    background-color: #166a5c;
-    color: #000000;
-    width: 6rem;
-    height: 6rem;
-    line-height: 6rem;
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
-
-.footer-main #mc-form button:hover {
-    background-color: #5da089;
-}
-
-.footer-main #mc-form button i {
-    font-size: 2.6rem;
-    line-height: 6rem;
-    margin: 0;
-    position: relative;
-    left: .2rem;
-}
-
-.footer-main #mc-form label {
-    color: #166a5c;
-    font-family: "montserrat-regular", sans-serif;
 }
 
 /* footer bottom
